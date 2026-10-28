@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    margin: 0;
+    padding: 30px 15px;
+  }
+  
+  .container {
+    max-width: 550px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    color: #2563eb;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #64748b;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #334155;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  #message {
+    text-align: center;
+  }
+  
+  .feedback-card {
+    background-color: #f8fafc;
+    border-left: 4px solid #2563eb;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 15px;
+    overflow-wrap: anywhere;
+  }
+  
+  .feedback-card h3 {
+    color: #1e40af;
+    margin-top: 0;
+  }
+  
+  .feedback-card p {
+    color: #475569;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 15px 10px;
+    }
+  
+    .container {
+      padding: 18px;
+    }
+  }
